@@ -103,9 +103,9 @@ describe("Get Request", () => {
         expect(res.matches).to.have.length(3)
       );
     });
-    it("OriginLocations tiene 41 elementos", () => {
+    it("OriginLocations tiene 51 elementos", () => {
       return req(METHOD_GET, STATUS_OK).then((res) =>
-        expect(res.originLocations).to.have.length(41)
+        expect(res.originLocations).to.have.length(51)
       );
     });
     it("OriginLocations tiene propiedad id", () => {
